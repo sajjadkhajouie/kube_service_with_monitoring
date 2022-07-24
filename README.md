@@ -7,6 +7,7 @@ Here we are building a application with the front end which will update the redi
 kubectl apply -f app_manifest.yaml
 
 [Prometheus Monitoring and exposing the app]
+
 For this we need to install the Prometheus and expose the pods using the exporter pod. Post this, we need to create a service monitor to to poll the data for the prometheus console.
 
 Please find the prometheus_pod_monitor.md file for the detailed instructions.
